@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.german.streaming" name="German Streaming" version="1.0.0" provider-name="Thgit20">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Deutsches Streaming-Addon für Kodi mit Netflix, Prime Video, Disney+, Sky und mehr</summary>
+        <description lang="de">Ein umfassendes Addon für deutsche Streaming-Dienste. Wähle deinen bevorzugten Streaming-Anbieter und starte Filme direkt in der nativen App.</description>
+        <disclaimer lang="de">Dieses Addon ist nicht offiziell mit den Streaming-Diensten verbunden.</disclaimer>
+        <language>de</language>
+        <platform>Android</platform>
+        <license>GPL-3.0</license>
+        <forum>https://github.com/Thgit20/kodi-german-streaming-addon</forum>
+        <source>https://github.com/Thgit20/kodi-german-streaming-addon</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>screenshot.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>

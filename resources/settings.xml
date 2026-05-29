@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="2">
+    <category label="30001">
+        <group label="30002">
+            <setting id="default_service" type="select" label="30003" default="">
+                <option label="30004">netflix</option>
+                <option label="30005">prime</option>
+                <option label="30006">disney</option>
+                <option label="30007">sky</option>
+                <option label="30008">dazn</option>
+                <option label="30009">rtl</option>
+                <option label="30010">prosiebenmaxx</option>
+                <option label="30011">maxdome</option>
+                <option label="30012">mubi</option>
+                <option label="30013">youtube</option>
+            </setting>
+        </group>
+        <group label="30014">
+            <setting id="auto_open_app" type="boolean" label="30015" default="true"/>
+            <setting id="show_descriptions" type="boolean" label="30016" default="true"/>
+        </group>
+    </category>
+</settings>
